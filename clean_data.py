@@ -6,6 +6,11 @@ import pandas as pd
 
 def load_data(input_file):
     """Lea el archivo usando pandas y devuelva un DataFrame"""
+    df = pd.read_csv(input_file)
+
+
+df = load_data("input.txt")
+print(df)
 
 
 def create_fingerprint(df):
